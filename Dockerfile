@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM alpine:3.6
 
 RUN apk update && apk upgrade && \
     apk add --no-cache gcc make git openssh g++

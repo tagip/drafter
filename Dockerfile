@@ -12,4 +12,6 @@ RUN git clone --recursive git://github.com/apiaryio/drafter.git && \
 
 RUN apk del openssh git
 
-ENTRYPOINT ["drafter"]
+COPY ./docker-entrypoint.sh /
+
+ENTRYPOINT ["/docker-entrypoint.sh"]

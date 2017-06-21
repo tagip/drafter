@@ -1,5 +1,5 @@
 # Drafter
-Docker image that generate AST json from API Blueprint file. It's based on https://github.com/apiaryio/drafter. 
+Docker image that generates AST json from API Blueprint file. It's based on https://github.com/apiaryio/drafter. 
 
 ## Usage 
 
